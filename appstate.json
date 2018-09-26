@@ -1,7 +1,7 @@
 {
   "client": {
     "address": "localhost",
-    "cmdrecv": 7660,
+    "cmdrecv": 7659,
     "cmdsend": 9403,
     "osceventrecv": 9508,
     "osceventsend": 9310,
@@ -123,7 +123,7 @@
       "collapsed": true,
       "currentstate": {
         "params": {
-          "Bypass": true,
+          "Bypass": false,
           "Extend": "mirror",
           "Feedbackenabled": false,
           "Feedbacklevel": 0.3020060062408447,
@@ -152,7 +152,7 @@
       "uimode": "ctrl"
     },
     "/_/app/generator1": {
-      "collapsed": true,
+      "collapsed": false,
       "currentstate": {
         "params": {
           "Bypass": false
@@ -593,7 +593,7 @@
       "uimode": "ctrl"
     },
     "/_/app/generator2": {
-      "collapsed": true,
+      "collapsed": false,
       "currentstate": {
         "params": {
           "Bypass": false
@@ -1108,7 +1108,7 @@
       "uimode": "ctrl"
     },
     "/_/app/generator3": {
-      "collapsed": true,
+      "collapsed": false,
       "currentstate": {
         "params": {
           "Bypass": false
@@ -1593,7 +1593,7 @@
       "uimode": "ctrl"
     },
     "/_/app/generator4": {
-      "collapsed": true,
+      "collapsed": false,
       "currentstate": {
         "params": {
           "Bypass": false
@@ -1855,7 +1855,7 @@
       "uimode": "ctrl"
     },
     "/_/app/generator5": {
-      "collapsed": true,
+      "collapsed": false,
       "currentstate": {
         "params": {
           "Bypass": false
@@ -2072,7 +2072,7 @@
       "uimode": "ctrl"
     },
     "/_/app/generator6": {
-      "collapsed": true,
+      "collapsed": false,
       "currentstate": {
         "params": {
           "Bypass": false
@@ -2395,7 +2395,7 @@
       "uimode": "ctrl"
     },
     "/_/app/generator7/coloradj": {
-      "collapsed": false,
+      "collapsed": true,
       "currentstate": {
         "params": {
           "Brightness": 1.0628063678741455,
@@ -2415,7 +2415,7 @@
       "uimode": "ctrl"
     },
     "/_/app/generator7/delay": {
-      "collapsed": false,
+      "collapsed": true,
       "currentstate": {
         "params": {
           "Bypass": false,
@@ -2431,7 +2431,7 @@
       "uimode": "ctrl"
     },
     "/_/app/generator7/edge": {
-      "collapsed": false,
+      "collapsed": true,
       "currentstate": {
         "params": {
           "Bypass": false,
@@ -2512,9 +2512,10 @@
       "uimode": "ctrl"
     },
     "/_/app/generator7/feedback": {
-      "collapsed": false,
+      "collapsed": true,
       "currentstate": {
         "params": {
+          "Blacklevel": 0.003999999724328518,
           "Bypass": false,
           "Level": 0.9082414507865906,
           "Levelexp": 0.2592422366142273,
@@ -2673,7 +2674,7 @@
       "uimode": "ctrl"
     },
     "/_/app/generator7/noise_gen_1": {
-      "collapsed": false,
+      "collapsed": true,
       "currentstate": {
         "params": {
           "Amp": 0.8534518480300903,
@@ -2730,7 +2731,7 @@
       "uimode": "ctrl"
     },
     "/_/app/generator7/transform": {
-      "collapsed": false,
+      "collapsed": true,
       "currentstate": {
         "params": {
           "Bypass": false,
@@ -2762,7 +2763,7 @@
       "uimode": "ctrl"
     },
     "/_/app/generator7/transform3": {
-      "collapsed": false,
+      "collapsed": true,
       "currentstate": {
         "params": {
           "Bypass": false,
@@ -2811,7 +2812,7 @@
       },
       "currentstateindex": 0,
       "hidden": false,
-      "showadvancedparams": true,
+      "showadvancedparams": false,
       "showhiddenparams": false,
       "uimode": "ctrl"
     },
@@ -2832,9 +2833,50 @@
           "Horzsource": "red",
           "Level": 1.169934630393982,
           "Reverse": false,
-          "Source": "noise_gen_1_out",
+          "Source": "/_/app/generator7/warp_noise",
           "Uniformdisplaceweight": 0.03941993787884712,
           "Vertsource": "blue"
+        }
+      },
+      "currentstateindex": 0,
+      "hidden": false,
+      "showadvancedparams": false,
+      "showhiddenparams": false,
+      "uimode": "ctrl"
+    },
+    "/_/app/generator7/warp_noise_gen": {
+      "collapsed": true,
+      "currentstate": {
+        "params": {
+          "Amp": 2.0,
+          "Blend": 0.5,
+          "Bypass": false,
+          "Clamp1": 0.0,
+          "Clamp2": 0.0,
+          "Derivative": true,
+          "Dimness": 1.0,
+          "Gradient": 0.5,
+          "Noisetype": "value3d",
+          "Normalization": 1.0,
+          "Offset": 0.492000013589859,
+          "Paused": false,
+          "Period1": 0.8999999761581421,
+          "Period2": 0.8999999761581421,
+          "Period3": 0.8999999761581421,
+          "Period4": 0.8999999761581421,
+          "Periodmult": 1.850000023841858,
+          "Pixelformat": "rgba32float",
+          "Probability": 0.5,
+          "Radius1": 0.10000000149011612,
+          "Radius2": 1.0,
+          "Rate1": 0.0,
+          "Rate2": 0.30000001192092896,
+          "Rate3": 1.7000000476837158,
+          "Rate4": -0.9511659741401672,
+          "Ratemult": 0.41999998688697815,
+          "Renderresh": 1080.0,
+          "Renderresw": 1920.0,
+          "Value": 1.0
         }
       },
       "currentstateindex": 0,
@@ -3367,15 +3409,15 @@
       "currentstate": {
         "params": {
           "Antialias": false,
-          "Bubble": 1.5399999618530273,
+          "Bubble": 0.10000000149011612,
           "Bypass": false,
           "Feature": "1",
           "Feedbackenabled": true,
           "Feedbacklevel": 1.0,
           "Feedbacklevelexp": 0.15800000727176666,
-          "Feedbackoperand": "lightercolor",
+          "Feedbackoperand": "brightest",
           "Level": 1.0,
-          "Simplefeature": 0.2659839987754822
+          "Simplefeature": 13.600000381469727
         }
       },
       "currentstateindex": 0,
@@ -3442,7 +3484,7 @@
       "uimode": "ctrl"
     },
     "/_/app/global": {
-      "collapsed": true,
+      "collapsed": false,
       "currentstate": {
         "params": {
           "Bypass": false,
@@ -3456,7 +3498,7 @@
       "uimode": "ctrl"
     },
     "/_/app/master": {
-      "collapsed": true,
+      "collapsed": false,
       "currentstate": {
         "params": {
           "Bypass": false,
