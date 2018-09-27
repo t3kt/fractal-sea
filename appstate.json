@@ -1,7 +1,7 @@
 {
   "client": {
     "address": "localhost",
-    "cmdrecv": 7659,
+    "cmdrecv": 7657,
     "cmdsend": 9403,
     "osceventrecv": 9508,
     "osceventsend": 9310,
@@ -26,27 +26,27 @@
       "uimode": "submods"
     },
     "/_/app/color_map/edge_module": {
-      "collapsed": true,
+      "collapsed": false,
       "currentstate": {
         "params": {
-          "Blacklevel": 0.3199999928474426,
-          "Bypass": true,
+          "Blacklevel": 0.3510008156299591,
+          "Bypass": false,
           "Compinput": true,
           "Edgecolora": 1.0,
-          "Edgecolorb": 1.0,
-          "Edgecolorg": 0.9866039752960205,
-          "Edgecolorr": 1.0,
+          "Edgecolorb": -2.3444602489471436,
+          "Edgecolorg": -2.2805397510528564,
+          "Edgecolorr": -1.0021307468414307,
           "Level": 1.0,
           "Offsetx": 0.810230016708374,
           "Offsety": 0.14424599707126617,
-          "Operand": "add",
+          "Operand": "over",
           "Selectchan": "luminance",
-          "Strength": 0.7599999904632568
+          "Strength": 1.2013378143310547
         }
       },
       "currentstateindex": 0,
       "hidden": false,
-      "showadvancedparams": false,
+      "showadvancedparams": true,
       "showhiddenparams": false,
       "uimode": "ctrl"
     },
@@ -140,7 +140,7 @@
           "Scaley": 0.5,
           "Transformorder": "trs",
           "Translatemult": 1.0,
-          "Translatex": 0.5,
+          "Translatex": -0.5,
           "Translatey": 0.0,
           "Uniformscale": 1.0
         }
@@ -152,7 +152,7 @@
       "uimode": "ctrl"
     },
     "/_/app/generator1": {
-      "collapsed": false,
+      "collapsed": true,
       "currentstate": {
         "params": {
           "Bypass": false
@@ -593,7 +593,7 @@
       "uimode": "ctrl"
     },
     "/_/app/generator2": {
-      "collapsed": false,
+      "collapsed": true,
       "currentstate": {
         "params": {
           "Bypass": false
@@ -1108,7 +1108,7 @@
       "uimode": "ctrl"
     },
     "/_/app/generator3": {
-      "collapsed": false,
+      "collapsed": true,
       "currentstate": {
         "params": {
           "Bypass": false
@@ -1593,7 +1593,7 @@
       "uimode": "ctrl"
     },
     "/_/app/generator4": {
-      "collapsed": false,
+      "collapsed": true,
       "currentstate": {
         "params": {
           "Bypass": false
@@ -1855,7 +1855,7 @@
       "uimode": "ctrl"
     },
     "/_/app/generator5": {
-      "collapsed": false,
+      "collapsed": true,
       "currentstate": {
         "params": {
           "Bypass": false
@@ -2072,7 +2072,7 @@
       "uimode": "ctrl"
     },
     "/_/app/generator6": {
-      "collapsed": false,
+      "collapsed": true,
       "currentstate": {
         "params": {
           "Bypass": false
@@ -2395,17 +2395,18 @@
       "uimode": "ctrl"
     },
     "/_/app/generator7/coloradj": {
-      "collapsed": true,
+      "collapsed": false,
       "currentstate": {
         "params": {
-          "Brightness": 1.0628063678741455,
+          "Blacklevel": 0.0,
+          "Brightness": 0.9057904481887817,
           "Bypass": false,
-          "Contrast": 0.7149203419685364,
-          "Hueoffset": -0.481515496969223,
-          "Invert": 0.0,
+          "Contrast": 2.2850797176361084,
+          "Hueoffset": -0.25122547149658203,
+          "Invert": -1.3161510229110718,
           "Level": 1.0,
           "Opacity": 1.0,
-          "Saturation": 0.7592422366142273
+          "Saturation": 1.5338542461395264
         }
       },
       "currentstateindex": 0,
@@ -2420,8 +2421,8 @@
         "params": {
           "Bypass": false,
           "Cachesize": 16,
-          "Length": 0.7512255311012268,
-          "Level": 1.6723856925964355
+          "Length": 0.7900000214576721,
+          "Level": 1.0
         }
       },
       "currentstateindex": 0,
@@ -2434,18 +2435,19 @@
       "collapsed": true,
       "currentstate": {
         "params": {
-          "Bypass": false,
+          "Blacklevel": 0.33006536960601807,
+          "Bypass": true,
           "Compinput": false,
           "Edgecolora": 1.0,
           "Edgecolorb": 1.0,
           "Edgecolorg": 1.0,
           "Edgecolorr": 0.7482270002365112,
-          "Level": 1.0,
-          "Offsetx": 1.7559912204742432,
-          "Offsety": 3.3191678524017334,
+          "Level": 4.148003578186035,
+          "Offsetx": 3.1023964881896973,
+          "Offsety": 3.1376125812530518,
           "Operand": "difference",
           "Selectchan": "red",
-          "Strength": 0.9030075669288635
+          "Strength": 0.9762817025184631
         }
       },
       "currentstateindex": 0,
@@ -2458,18 +2460,19 @@
       "collapsed": true,
       "currentstate": {
         "params": {
+          "Blacklevel": 0.7860000133514404,
           "Bypass": true,
           "Compinput": false,
           "Edgecolora": 1.0,
-          "Edgecolorb": 0.11647726595401764,
-          "Edgecolorg": 0.9794034361839294,
+          "Edgecolorb": 0.11647699773311615,
+          "Edgecolorg": 0.979403018951416,
           "Edgecolorr": 0.0,
           "Level": 1.0,
-          "Offsetx": 1.7559912204742432,
+          "Offsetx": 1.7559900283813477,
           "Offsety": 0.22090500593185425,
           "Operand": "over",
           "Selectchan": "red",
-          "Strength": 0.4581291079521179
+          "Strength": 0.45812898874282837
         }
       },
       "currentstateindex": 0,
@@ -2512,13 +2515,13 @@
       "uimode": "ctrl"
     },
     "/_/app/generator7/feedback": {
-      "collapsed": true,
+      "collapsed": false,
       "currentstate": {
         "params": {
-          "Blacklevel": 0.003999999724328518,
+          "Blacklevel": 0.2253880798816681,
           "Bypass": false,
-          "Level": 0.9082414507865906,
-          "Levelexp": 0.2592422366142273,
+          "Level": 0.8349673748016357,
+          "Levelexp": 0.2592419981956482,
           "Operand": "add",
           "Source": "/_/app/generator7/chain_end"
         }
@@ -2538,7 +2541,7 @@
           "Flip1y": false,
           "Flip2x": true,
           "Flip2y": false,
-          "Level": 1.3269506692886353,
+          "Level": 1.0,
           "Operand1": "average",
           "Operand2": "lightercolor"
         }
@@ -2677,7 +2680,7 @@
       "collapsed": true,
       "currentstate": {
         "params": {
-          "Amp": 0.8534518480300903,
+          "Amp": 0.6859681606292725,
           "Blend": 0.5,
           "Bypass": false,
           "Clamp1": 0.0,
@@ -2687,13 +2690,13 @@
           "Gradient": 0.5,
           "Noisetype": "cellular3d",
           "Normalization": 1.0,
-          "Offset": 0.4738306999206543,
+          "Offset": 0.45289522409439087,
           "Paused": false,
-          "Period1": 2.6342105865478516,
-          "Period2": 2.6960785388946533,
-          "Period3": 2.6342105865478516,
-          "Period4": 4.78157901763916,
-          "Periodmult": 4.410360813140869,
+          "Period1": 4.513157844543457,
+          "Period2": 4.133986949920654,
+          "Period3": 4.513157844543457,
+          "Period4": 4.781579971313477,
+          "Periodmult": 4.881408214569092,
           "Pixelformat": "rgba32float",
           "Probability": 0.5,
           "Radius1": 0.10000000149011612,
@@ -2702,7 +2705,7 @@
           "Rate2": 0.4000000059604645,
           "Rate3": 0.5,
           "Rate4": 0.0,
-          "Ratemult": 1.1653646230697632,
+          "Ratemult": 0.17093035578727722,
           "Renderresh": 2160.0,
           "Renderresw": 3840.0,
           "Value": 1.0
@@ -2718,6 +2721,7 @@
       "collapsed": true,
       "currentstate": {
         "params": {
+          "Blacklevel": 0.0,
           "Bypass": true,
           "Level": 0.3117679953575134,
           "Levelexp": 0.07999999821186066,
@@ -2731,29 +2735,35 @@
       "uimode": "ctrl"
     },
     "/_/app/generator7/transform": {
-      "collapsed": true,
+      "collapsed": false,
       "currentstate": {
         "params": {
           "Bypass": false,
           "Extend": "mirror",
+          "Feedbackblacklevel": 0.0,
           "Feedbackenabled": false,
           "Feedbacklevel": 0.699999988079071,
           "Feedbacklevelexp": 0.5429999828338623,
-          "Feedbackoperand": "maximum",
+          "Feedbackoperand": "lightercolor",
           "Level": 1.0,
-          "Pivotx": 0.690740704536438,
-          "Pivoty": 0.5624095797538757,
-          "Rotate": 71.59928131103516,
+          "Parfilterenable": true,
+          "Parfilterlag1": 0.20000000298023224,
+          "Parfilterlag2": 0.20000000298023224,
+          "Parfilterovershoot1": 0.10000000149011612,
+          "Parfilterovershoot2": 0.10000000149011612,
+          "Parfiltertype": "gauss",
+          "Parfilterwidth": 2.0,
+          "Pivotx": 0.7244008779525757,
+          "Pivoty": 0.6758816242218018,
+          "Rotate": -120.58822631835938,
           "Rotatemult": 0.25,
-          "Scalemode": "linked",
-          "Scalemult": 1.0,
           "Scalex": 1.0,
           "Scaley": 1.0,
           "Transformorder": "srt",
           "Translatemult": 0.20000000298023224,
-          "Translatex": 0.15708057582378387,
-          "Translatey": -0.5787073373794556,
-          "Uniformscale": 0.8115809559822083
+          "Translatex": 0.33660128712654114,
+          "Translatey": 1.6453442573547363,
+          "Uniformscale": 0.9162582159042358
         }
       },
       "currentstateindex": 0,
@@ -2763,29 +2773,35 @@
       "uimode": "ctrl"
     },
     "/_/app/generator7/transform3": {
-      "collapsed": true,
+      "collapsed": false,
       "currentstate": {
         "params": {
           "Bypass": false,
           "Extend": "mirror",
+          "Feedbackblacklevel": 0.0,
           "Feedbackenabled": false,
           "Feedbacklevel": 0.2047239989042282,
           "Feedbacklevelexp": 0.5429999828338623,
-          "Feedbackoperand": "maximum",
+          "Feedbackoperand": "lightercolor",
           "Level": 1.0,
-          "Pivotx": 0.4214596748352051,
-          "Pivoty": 0.5056735873222351,
-          "Rotate": 33.91545486450195,
-          "Rotatemult": 0.25,
-          "Scalemode": "linked",
-          "Scalemult": 1.0,
-          "Scalex": 0.8204792737960815,
-          "Scaley": 0.7957503199577332,
+          "Parfilterenable": true,
+          "Parfilterlag1": 0.20000000298023224,
+          "Parfilterlag2": 0.20000000298023224,
+          "Parfilterovershoot1": 0.10000000149011612,
+          "Parfilterovershoot2": 0.10000000149011612,
+          "Parfiltertype": "gauss",
+          "Parfilterwidth": 2.0,
+          "Pivotx": 0.14095860719680786,
+          "Pivoty": 0.4148959815502167,
+          "Rotate": 7.536776542663574,
+          "Rotatemult": 0.5,
+          "Scalex": 1.0,
+          "Scaley": 1.0,
           "Transformorder": "srt",
           "Translatemult": 0.20000000298023224,
-          "Translatex": 0.17952066659927368,
-          "Translatey": 0.011347176507115364,
-          "Uniformscale": 0.8325163722038269
+          "Translatex": 0.04488014802336693,
+          "Translatey": 0.2836800217628479,
+          "Uniformscale": 0.8534518480300903
         }
       },
       "currentstateindex": 0,
@@ -2798,43 +2814,44 @@
       "collapsed": true,
       "currentstate": {
         "params": {
-          "Antialias": false,
-          "Bubble": 0.3279463052749634,
+          "Antialias": true,
+          "Bubble": 1.322380542755127,
           "Bypass": true,
-          "Feature": "1",
-          "Feedbackenabled": true,
-          "Feedbacklevel": 0.6570159792900085,
+          "Feature": "3",
+          "Feedbackblacklevel": 0.110243059694767,
+          "Feedbackenabled": false,
+          "Feedbacklevel": 0.9605801105499268,
           "Feedbacklevelexp": 0.15800000727176666,
           "Feedbackoperand": "lightercolor",
-          "Level": 1.3792892694473267,
-          "Simplefeature": 28.034290313720703
+          "Level": 1.7718291282653809,
+          "Simplefeature": 5.132888317108154
         }
       },
       "currentstateindex": 0,
       "hidden": false,
-      "showadvancedparams": false,
+      "showadvancedparams": true,
       "showhiddenparams": false,
       "uimode": "ctrl"
     },
     "/_/app/generator7/warp": {
-      "collapsed": true,
+      "collapsed": false,
       "currentstate": {
         "params": {
-          "Bypass": true,
+          "Bypass": false,
           "Displacemode": "linked",
-          "Displaceweightscale": 0.12044526636600494,
+          "Displaceweightscale": 0.013674428686499596,
           "Displaceweightx": 0.0,
           "Displaceweighty": 0.0,
           "Extend": "mirror",
           "Feedbackenabled": false,
           "Feedbacklevel": 0.8873059749603271,
-          "Feedbacklevelexp": 0.3691534101963043,
+          "Feedbacklevelexp": 0.3691529929637909,
           "Feedbackoperand": "lightercolor",
           "Horzsource": "red",
-          "Level": 1.169934630393982,
+          "Level": 1.1699299812316895,
           "Reverse": false,
           "Source": "/_/app/generator7/warp_noise",
-          "Uniformdisplaceweight": 0.03941993787884712,
+          "Uniformdisplaceweight": 0.4633629620075226,
           "Vertsource": "blue"
         }
       },
@@ -2856,7 +2873,7 @@
           "Derivative": true,
           "Dimness": 1.0,
           "Gradient": 0.5,
-          "Noisetype": "value3d",
+          "Noisetype": "perlin3d",
           "Normalization": 1.0,
           "Offset": 0.492000013589859,
           "Paused": false,
@@ -3484,7 +3501,7 @@
       "uimode": "ctrl"
     },
     "/_/app/global": {
-      "collapsed": false,
+      "collapsed": true,
       "currentstate": {
         "params": {
           "Bypass": false,
@@ -3498,7 +3515,7 @@
       "uimode": "ctrl"
     },
     "/_/app/master": {
-      "collapsed": false,
+      "collapsed": true,
       "currentstate": {
         "params": {
           "Bypass": false,
