@@ -1,7 +1,7 @@
 {
   "client": {
     "address": "localhost",
-    "cmdrecv": 7657,
+    "cmdrecv": 7656,
     "cmdsend": 9403,
     "osceventrecv": 9508,
     "osceventsend": 9310,
@@ -12,145 +12,6 @@
     "version": 1
   },
   "modulestates": {
-    "/_/app/color_map": {
-      "collapsed": false,
-      "currentstate": {
-        "params": {
-          "Bypass": false
-        }
-      },
-      "currentstateindex": 0,
-      "hidden": false,
-      "showadvancedparams": false,
-      "showhiddenparams": false,
-      "uimode": "submods"
-    },
-    "/_/app/color_map/edge_module": {
-      "collapsed": false,
-      "currentstate": {
-        "params": {
-          "Blacklevel": 0.3510008156299591,
-          "Bypass": false,
-          "Compinput": true,
-          "Edgecolora": 1.0,
-          "Edgecolorb": -2.3444602489471436,
-          "Edgecolorg": -2.2805397510528564,
-          "Edgecolorr": -1.0021307468414307,
-          "Level": 1.0,
-          "Offsetx": 0.810230016708374,
-          "Offsety": 0.14424599707126617,
-          "Operand": "over",
-          "Selectchan": "luminance",
-          "Strength": 1.2013378143310547
-        }
-      },
-      "currentstateindex": 0,
-      "hidden": false,
-      "showadvancedparams": true,
-      "showhiddenparams": false,
-      "uimode": "ctrl"
-    },
-    "/_/app/color_map/switch": {
-      "collapsed": true,
-      "currentstate": {
-        "params": {
-          "Activetrack": "track7",
-          "Blankcolora": 0.0,
-          "Blankcolorb": 0.0,
-          "Blankcolorg": 0.0,
-          "Blankcolorr": 0.0,
-          "Bypass": false,
-          "Label1": "",
-          "Label2": "",
-          "Label3": "",
-          "Label4": "",
-          "Label5": "",
-          "Label6": "",
-          "Label7": "",
-          "Label8": "",
-          "Maxperline": 1,
-          "Renderresh": 2160.0,
-          "Renderresw": 3840.0,
-          "Showblankoption": false,
-          "Showeditbuttons": false,
-          "Source1": "generator1_out",
-          "Source2": "generator2_out",
-          "Source3": "generator3_out",
-          "Source4": "generator4_out",
-          "Source5": "generator5_out",
-          "Source6": "generator6_out",
-          "Source7": "generator7_out",
-          "Source8": "generator8_out",
-          "Trackcount": 8,
-          "Uilayout": "horz",
-          "Useinput1": false,
-          "Useinput2": false,
-          "Useinput3": false,
-          "Useinput4": false,
-          "Useinput5": false,
-          "Useinput6": false,
-          "Useinput7": false,
-          "Useinput8": false
-        }
-      },
-      "currentstateindex": 0,
-      "hidden": false,
-      "showadvancedparams": false,
-      "showhiddenparams": false,
-      "uimode": "ctrl"
-    },
-    "/_/app/color_map/tint1": {
-      "collapsed": true,
-      "currentstate": {
-        "params": {
-          "Alpha": 1.0,
-          "Alphamode": "luminance",
-          "Bypass": true,
-          "Level": 0.5476660132408142,
-          "Rgbmode": "luminance",
-          "Tintcolorb": 0.20646199584007263,
-          "Tintcolorg": 0.8782510161399841,
-          "Tintcolorr": 0.33648499846458435
-        }
-      },
-      "currentstateindex": 0,
-      "hidden": false,
-      "showadvancedparams": false,
-      "showhiddenparams": false,
-      "uimode": "ctrl"
-    },
-    "/_/app/color_map/transform": {
-      "collapsed": true,
-      "currentstate": {
-        "params": {
-          "Bypass": false,
-          "Extend": "mirror",
-          "Feedbackenabled": false,
-          "Feedbacklevel": 0.3020060062408447,
-          "Feedbacklevelexp": 0.07999999821186066,
-          "Feedbackoperand": "maximum",
-          "Level": 1.0,
-          "Pivotx": 0.5,
-          "Pivoty": 0.5,
-          "Rotate": 0.0,
-          "Rotatemult": 1.0,
-          "Scalemode": "separate",
-          "Scalemult": 1.0,
-          "Scalex": 0.5,
-          "Scaley": 0.5,
-          "Transformorder": "trs",
-          "Translatemult": 1.0,
-          "Translatex": -0.5,
-          "Translatey": 0.0,
-          "Uniformscale": 1.0
-        }
-      },
-      "currentstateindex": 0,
-      "hidden": false,
-      "showadvancedparams": false,
-      "showhiddenparams": false,
-      "uimode": "ctrl"
-    },
     "/_/app/generator1": {
       "collapsed": true,
       "currentstate": {
@@ -2395,18 +2256,18 @@
       "uimode": "ctrl"
     },
     "/_/app/generator7/coloradj": {
-      "collapsed": false,
+      "collapsed": true,
       "currentstate": {
         "params": {
           "Blacklevel": 0.0,
-          "Brightness": 0.9057904481887817,
+          "Brightness": 0.9057899713516235,
           "Bypass": false,
-          "Contrast": 2.2850797176361084,
-          "Hueoffset": -0.25122547149658203,
-          "Invert": -1.3161510229110718,
+          "Contrast": 2.2850799560546875,
+          "Hueoffset": -0.25122499465942383,
+          "Invert": -1.3161499500274658,
           "Level": 1.0,
           "Opacity": 1.0,
-          "Saturation": 1.5338542461395264
+          "Saturation": 1.5338499546051025
         }
       },
       "currentstateindex": 0,
@@ -2435,19 +2296,19 @@
       "collapsed": true,
       "currentstate": {
         "params": {
-          "Blacklevel": 0.33006536960601807,
+          "Blacklevel": 0.3300650119781494,
           "Bypass": true,
           "Compinput": false,
           "Edgecolora": 1.0,
           "Edgecolorb": 1.0,
           "Edgecolorg": 1.0,
           "Edgecolorr": 0.7482270002365112,
-          "Level": 4.148003578186035,
-          "Offsetx": 3.1023964881896973,
-          "Offsety": 3.1376125812530518,
+          "Level": 4.1479997634887695,
+          "Offsetx": 3.102400064468384,
+          "Offsety": 3.1376099586486816,
           "Operand": "difference",
           "Selectchan": "red",
-          "Strength": 0.9762817025184631
+          "Strength": 0.976282000541687
         }
       },
       "currentstateindex": 0,
@@ -2515,12 +2376,12 @@
       "uimode": "ctrl"
     },
     "/_/app/generator7/feedback": {
-      "collapsed": false,
+      "collapsed": true,
       "currentstate": {
         "params": {
-          "Blacklevel": 0.2253880798816681,
+          "Blacklevel": 0.22538800537586212,
           "Bypass": false,
-          "Level": 0.8349673748016357,
+          "Level": 0.8349670171737671,
           "Levelexp": 0.2592419981956482,
           "Operand": "add",
           "Source": "/_/app/generator7/chain_end"
@@ -2680,7 +2541,7 @@
       "collapsed": true,
       "currentstate": {
         "params": {
-          "Amp": 0.6859681606292725,
+          "Amp": 0.6859679818153381,
           "Blend": 0.5,
           "Bypass": false,
           "Clamp1": 0.0,
@@ -2690,13 +2551,13 @@
           "Gradient": 0.5,
           "Noisetype": "cellular3d",
           "Normalization": 1.0,
-          "Offset": 0.45289522409439087,
+          "Offset": 0.45289498567581177,
           "Paused": false,
-          "Period1": 4.513157844543457,
-          "Period2": 4.133986949920654,
-          "Period3": 4.513157844543457,
+          "Period1": 4.513160228729248,
+          "Period2": 4.1339898109436035,
+          "Period3": 4.513160228729248,
           "Period4": 4.781579971313477,
-          "Periodmult": 4.881408214569092,
+          "Periodmult": 4.881410121917725,
           "Pixelformat": "rgba32float",
           "Probability": 0.5,
           "Radius1": 0.10000000149011612,
@@ -2705,7 +2566,7 @@
           "Rate2": 0.4000000059604645,
           "Rate3": 0.5,
           "Rate4": 0.0,
-          "Ratemult": 0.17093035578727722,
+          "Ratemult": 0.17092999815940857,
           "Renderresh": 2160.0,
           "Renderresw": 3840.0,
           "Value": 1.0
@@ -2735,7 +2596,7 @@
       "uimode": "ctrl"
     },
     "/_/app/generator7/transform": {
-      "collapsed": false,
+      "collapsed": true,
       "currentstate": {
         "params": {
           "Bypass": false,
@@ -2753,17 +2614,17 @@
           "Parfilterovershoot2": 0.10000000149011612,
           "Parfiltertype": "gauss",
           "Parfilterwidth": 2.0,
-          "Pivotx": 0.7244008779525757,
-          "Pivoty": 0.6758816242218018,
-          "Rotate": -120.58822631835938,
+          "Pivotx": 0.7244009971618652,
+          "Pivoty": 0.6758819818496704,
+          "Rotate": -120.58799743652344,
           "Rotatemult": 0.25,
           "Scalex": 1.0,
           "Scaley": 1.0,
           "Transformorder": "srt",
           "Translatemult": 0.20000000298023224,
-          "Translatex": 0.33660128712654114,
-          "Translatey": 1.6453442573547363,
-          "Uniformscale": 0.9162582159042358
+          "Translatex": 0.33660098910331726,
+          "Translatey": 1.6453399658203125,
+          "Uniformscale": 0.9162579774856567
         }
       },
       "currentstateindex": 0,
@@ -2773,7 +2634,7 @@
       "uimode": "ctrl"
     },
     "/_/app/generator7/transform3": {
-      "collapsed": false,
+      "collapsed": true,
       "currentstate": {
         "params": {
           "Bypass": false,
@@ -2791,17 +2652,17 @@
           "Parfilterovershoot2": 0.10000000149011612,
           "Parfiltertype": "gauss",
           "Parfilterwidth": 2.0,
-          "Pivotx": 0.14095860719680786,
-          "Pivoty": 0.4148959815502167,
-          "Rotate": 7.536776542663574,
+          "Pivotx": 0.1409589946269989,
+          "Pivoty": 0.41489601135253906,
+          "Rotate": 7.536779880523682,
           "Rotatemult": 0.5,
           "Scalex": 1.0,
           "Scaley": 1.0,
           "Transformorder": "srt",
           "Translatemult": 0.20000000298023224,
-          "Translatex": 0.04488014802336693,
-          "Translatey": 0.2836800217628479,
-          "Uniformscale": 0.8534518480300903
+          "Translatex": 0.04488009959459305,
+          "Translatey": 0.2836799919605255,
+          "Uniformscale": 0.8534520268440247
         }
       },
       "currentstateindex": 0,
@@ -2815,31 +2676,31 @@
       "currentstate": {
         "params": {
           "Antialias": true,
-          "Bubble": 1.322380542755127,
+          "Bubble": 1.3223799467086792,
           "Bypass": true,
           "Feature": "3",
-          "Feedbackblacklevel": 0.110243059694767,
+          "Feedbackblacklevel": 0.11024300009012222,
           "Feedbackenabled": false,
-          "Feedbacklevel": 0.9605801105499268,
+          "Feedbacklevel": 0.9605799913406372,
           "Feedbacklevelexp": 0.15800000727176666,
           "Feedbackoperand": "lightercolor",
-          "Level": 1.7718291282653809,
-          "Simplefeature": 5.132888317108154
+          "Level": 1.7718299627304077,
+          "Simplefeature": 5.132890224456787
         }
       },
       "currentstateindex": 0,
       "hidden": false,
-      "showadvancedparams": true,
+      "showadvancedparams": false,
       "showhiddenparams": false,
       "uimode": "ctrl"
     },
     "/_/app/generator7/warp": {
-      "collapsed": false,
+      "collapsed": true,
       "currentstate": {
         "params": {
           "Bypass": false,
           "Displacemode": "linked",
-          "Displaceweightscale": 0.013674428686499596,
+          "Displaceweightscale": 0.013674399815499783,
           "Displaceweightx": 0.0,
           "Displaceweighty": 0.0,
           "Extend": "mirror",
@@ -2851,7 +2712,7 @@
           "Level": 1.1699299812316895,
           "Reverse": false,
           "Source": "/_/app/generator7/warp_noise",
-          "Uniformdisplaceweight": 0.4633629620075226,
+          "Uniformdisplaceweight": 0.46336299180984497,
           "Vertsource": "blue"
         }
       },
@@ -2903,7 +2764,7 @@
       "uimode": "ctrl"
     },
     "/_/app/generator8": {
-      "collapsed": false,
+      "collapsed": true,
       "currentstate": {
         "params": {
           "Bypass": false
@@ -3515,7 +3376,7 @@
       "uimode": "ctrl"
     },
     "/_/app/master": {
-      "collapsed": true,
+      "collapsed": false,
       "currentstate": {
         "params": {
           "Bypass": false,
@@ -3564,6 +3425,31 @@
           "Operand": "over",
           "Selectchan": "luminance",
           "Strength": 0.7386320233345032
+        }
+      },
+      "currentstateindex": 0,
+      "hidden": false,
+      "showadvancedparams": false,
+      "showhiddenparams": false,
+      "uimode": "ctrl"
+    },
+    "/_/app/master/edge_module": {
+      "collapsed": true,
+      "currentstate": {
+        "params": {
+          "Blacklevel": 0.35100099444389343,
+          "Bypass": false,
+          "Compinput": true,
+          "Edgecolora": 1.0,
+          "Edgecolorb": -2.3444600105285645,
+          "Edgecolorg": -2.2805399894714355,
+          "Edgecolorr": -1.0021300315856934,
+          "Level": 1.0,
+          "Offsetx": 0.810230016708374,
+          "Offsety": 0.14424599707126617,
+          "Operand": "over",
+          "Selectchan": "luminance",
+          "Strength": 1.2013399600982666
         }
       },
       "currentstateindex": 0,
@@ -3658,6 +3544,107 @@
       "showhiddenparams": false,
       "uimode": "ctrl"
     },
+    "/_/app/master/switcher_module": {
+      "collapsed": false,
+      "currentstate": {
+        "params": {
+          "Activetrack": 7,
+          "Fitmode": "fitoutside",
+          "Label1": "generator 1",
+          "Label10": "",
+          "Label11": "",
+          "Label12": "",
+          "Label13": "",
+          "Label14": "",
+          "Label15": "",
+          "Label16": "",
+          "Label17": "",
+          "Label18": "",
+          "Label19": "",
+          "Label2": "generator 2",
+          "Label20": "",
+          "Label21": "",
+          "Label22": "",
+          "Label23": "",
+          "Label24": "",
+          "Label25": "",
+          "Label26": "",
+          "Label27": "",
+          "Label28": "",
+          "Label29": "",
+          "Label3": "generator 3",
+          "Label30": "",
+          "Label31": "",
+          "Label32": "",
+          "Label4": "generator 4",
+          "Label5": "generator 5",
+          "Label6": "generator 6",
+          "Label7": "generator 7",
+          "Label8": "generator 8",
+          "Label9": "",
+          "Renderresh": 1080.0,
+          "Renderresw": 1920.0,
+          "Source1": "/_/app/generator1/video_out",
+          "Source10": "",
+          "Source11": "",
+          "Source12": "",
+          "Source13": "",
+          "Source14": "",
+          "Source15": "",
+          "Source16": "",
+          "Source17": "",
+          "Source18": "",
+          "Source19": "",
+          "Source2": "/_/app/generator2/video_out",
+          "Source20": "",
+          "Source21": "",
+          "Source22": "",
+          "Source23": "",
+          "Source24": "",
+          "Source25": "",
+          "Source26": "",
+          "Source27": "",
+          "Source28": "",
+          "Source29": "",
+          "Source3": "/_/app/generator3/video_out",
+          "Source30": "",
+          "Source31": "",
+          "Source32": "",
+          "Source4": "/_/app/generator4/video_out",
+          "Source5": "/_/app/generator5/video_out",
+          "Source6": "/_/app/generator6/video_out",
+          "Source7": "/_/app/generator7/video_out",
+          "Source8": "/_/app/generator8/video_out",
+          "Source9": "",
+          "Useinputres": true
+        }
+      },
+      "currentstateindex": 0,
+      "hidden": false,
+      "showadvancedparams": false,
+      "showhiddenparams": false,
+      "uimode": "custom"
+    },
+    "/_/app/master/tint1": {
+      "collapsed": true,
+      "currentstate": {
+        "params": {
+          "Alpha": 1.0,
+          "Alphamode": "luminance",
+          "Bypass": true,
+          "Level": 0.5476660132408142,
+          "Rgbmode": "luminance",
+          "Tintcolorb": 0.20646199584007263,
+          "Tintcolorg": 0.8782510161399841,
+          "Tintcolorr": 0.33648499846458435
+        }
+      },
+      "currentstateindex": 0,
+      "hidden": false,
+      "showadvancedparams": false,
+      "showhiddenparams": false,
+      "uimode": "ctrl"
+    },
     "/_/app/master/trails": {
       "collapsed": true,
       "currentstate": {
@@ -3666,6 +3653,38 @@
           "Level": 0.16011899709701538,
           "Levelexp": 0.07999999821186066,
           "Operand": "lightercolor"
+        }
+      },
+      "currentstateindex": 0,
+      "hidden": false,
+      "showadvancedparams": false,
+      "showhiddenparams": false,
+      "uimode": "ctrl"
+    },
+    "/_/app/master/transform": {
+      "collapsed": true,
+      "currentstate": {
+        "params": {
+          "Bypass": false,
+          "Extend": "mirror",
+          "Feedbackenabled": false,
+          "Feedbacklevel": 0.3020060062408447,
+          "Feedbacklevelexp": 0.07999999821186066,
+          "Feedbackoperand": "maximum",
+          "Level": 1.0,
+          "Pivotx": 0.5,
+          "Pivoty": 0.5,
+          "Rotate": 0.0,
+          "Rotatemult": 1.0,
+          "Scalemode": "separate",
+          "Scalemult": 1.0,
+          "Scalex": 0.5,
+          "Scaley": 0.5,
+          "Transformorder": "trs",
+          "Translatemult": 1.0,
+          "Translatex": -0.5,
+          "Translatey": 0.0,
+          "Uniformscale": 1.0
         }
       },
       "currentstateindex": 0,
